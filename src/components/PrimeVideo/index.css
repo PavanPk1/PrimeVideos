@@ -1,0 +1,28 @@
+.mainContainer {
+  min-height: 100vh;
+  background-color: #000000;
+  padding-bottom: 32px;
+}
+.primeImage {
+  width: 100%;
+}
+.contentContainer {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 32px;
+  padding: 0px 10px;
+}
+@media (min-width: 768px) {
+  .contentContainer {
+    max-width: 1110px;
+  }
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 24px;
+}
+.slider-container {
+  width: 100%;
+}
